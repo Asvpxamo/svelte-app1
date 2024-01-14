@@ -1,0 +1,11 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:svelte-app1}/database/fitness_app.db",
+            "name": "fitness_app.db"
+        }
+    ]
+}
